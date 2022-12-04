@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1.0, user-scalable=no">
+    <title>My CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Zhanna</h1>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#more">More About Me!</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <i class="material-icons" onclick="closemenu()">close</i>
+                </ul>
+                <i class="material-icons" onclick="openmenu()">
+                    menu
+                </i>
+            </nav>
+            <div class="header-text">
+                <p>Senior Student at Nazarbayev University</p>
+                <h1>Hi, I'm <span>Zhanna</span>,</h1>
+                <p>and I spire to get a Master's degree in Human Rights or Migration</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/me.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p> 
+                        Currently I am studying at Nazarbayev University. I am majoring in Political Science and International Relations. I also do minor in Sociology. I have always been interested in intergovernmental communications and public policy, therefore chose this field of study. Moreover, I believe that  human social relationships and institutions affect the way politicians perform in office.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('academic')">Academic History</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="experience">
+                            <h3><span>Content Manager</span><br>GuideMe School | May 2021 - September 2021</h3>
+
+                            <ul>
+                                <li>Established interaction within school community</li>
+                                <li>Organized info-sessions with volunteer organizations</li>
+                                <li>Created check-lists and other informative documents for potential clients</li>
+                                <li>Assisted the department head in carrying out digital marketing campaigns</li>
+                                <li>Worked closely with the marketing head for digital promotions and other materials</li>
+                            </ul>
+                            <br>
+                            <h3><span>English Language Teacher</span><br>Skyeng: Online English school | 2020-2022</h3>
+                            <ul>
+                                <li>Taught individual English lessons with international students</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="academic">
+                            <h3><span>Nazarbayev University</span><br>
+                                Bachelors Degree in Politics and International Relations | 2019-
+                                present</h3>
+
+                            <ul>
+                                <li>Minister, Ministry of External Affairs of Student Government</li>
+                                <li>Member, Ministy of External Affairs</li>
+                                <li>Communication Manager, Association of Political Science Students</li>
+                                <li>Minor degree in Sociology</li>
+                            </ul>
+                            <br>
+                            <h3><span>Nazarbayev Intellectual School</span><br>
+                                Scholar | 3rd Year High School Student</h3>
+                            <ul>
+                                <li>Russian language Olympiad winner, Republican Olympiad of Humanities</li>
+                                <li>Minister of , Leadership Council</li>
+                                <li>Class Monitor, High School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="more">
+        <div class="container">
+            <h1 class="sub">More About Me!</h1>
+            <div class="listed">
+                <div>
+                    <h2>Achievements and Skills</h2>
+                    <p>During my years of study I have developed skills and achieved goals. On this <a href="pages/page2.html">page</a> you can find out more about me</p>
+                </div>
+                <div class="conts">
+                    <h2 id="contacts">Contacts</h2>
+                    <p><span>Mobile: </span>+77711148385</p>
+                    <p><span>Email: </span><a href="mailto: zhanna.khussainova@.nu.edu.kz" class="mail">zhanna.khussainova@nu.edu.kz</a></p>
+                    <p><span>Adress: </span>Kazakhstan, Nur-Sultan, Kabanbay batyr ave., 53</p>
+                    <p><span>LinkedIn: </span><a href="http://linkedin.com/in/zhanna-khussainova-300604203">My LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
